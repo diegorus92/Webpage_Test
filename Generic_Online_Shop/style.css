@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body{
-    
+    background-color: #BD4B4B;
+    max-width: 1280px;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header{
+    background-color: indigo;
+    display: flex;
+    width: 100%;
+}
+
+.header img{
+    background-color: lawngreen;
+    width: 10%;
+    margin-right: 2%;
+}
+
+.sections{
+    background-color: khaki;
+    width: 12%;
+    margin-left: 2%;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.redes{
+    background-color: lightcyan;
+    margin-left: 3%;
+    width: 20%;
+    display: flex;
+}
+
+.redes img{
+    background-color: lightseagreen;
+    width: 100px;
+}
+
+.articulos{
+    background-color: lightslategray;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5%;
+}
+
+.articulos img{
+    background-color: magenta;
+    width: 200px;
+    height: 200px;
+    margin: 2% 5% 2% 10%;
+
 }
